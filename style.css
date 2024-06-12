@@ -13,6 +13,7 @@ body {
 .verLogo .horizLogo {
 	width: 30px;
 	height: 30px;
+	background-color: aqua;
 }
 .vertLine {
 	display: inline-block;
