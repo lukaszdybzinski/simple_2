@@ -8,28 +8,47 @@
 body {
 	font-size: 62.5%;
 	margin: 0 30px;
+	font-family: 'Times New Roman', Arial, sans-serif;
 }
 
-.verLogo .horizLogo {
+/* NAVIGATION */
+.firstNav{
+	padding: 10px 0;
+
+}
+.logo {
+	display: flex;
+}
+
+.verLogo,
+.horizLogo {
+	display: flex;
+	justify-content: space-between;
 	width: 30px;
 	height: 30px;
-	background-color: aqua;
 }
-.vertLine {
-	display: inline-block;
+.vertLine,
+.horzLine {
 	background-color: #000;
-	height: 30px;
-	width: 2px;
-	margin: 2px;
+	height: 100%;
+	width: 4px;
+}
+
+.horizLogo {
+	transform: rotate(90deg);
+	margin-left: 5px;
 }
 
 .leftNav {
 	display: flex;
+	gap: 30px;
 }
 
 .mainNav {
 	display: flex;
-	justify-content: flex-start;
-	gap: 2rem;
-	font-size: 1.8rem;
+	gap: 30px;
+	font-family: Arial;
+	font-size: 1rem;
+	font-weight: 700;
+	
 }
