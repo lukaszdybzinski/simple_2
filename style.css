@@ -104,3 +104,12 @@ body {
 .secondNav ul li:first-child{
 	color: #ff764d;
 }
+
+/* HEADER */
+.heroImg img{
+	display: block;
+	width: 85vw;
+	height: 500px;
+	margin: 0 auto;
+	object-fit: cover;
+}
