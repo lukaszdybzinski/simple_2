@@ -21,7 +21,7 @@ body {
 	cursor: pointer;
 }
 
-.firstNav li{
+.firstNav li {
 	padding: 5px 16px;
 }
 
@@ -94,22 +94,30 @@ body {
 	font-size: 15px;
 	font-weight: 700;
 	cursor: pointer;
-
 }
 
-.secondNav ul li{
+.secondNav ul li {
 	padding: 0 16px;
 }
 
-.secondNav ul li:first-child{
+.secondNav ul li:first-child {
 	color: #ff764d;
 }
 
 /* HEADER */
-.heroImg img{
-	display: block;
-	width: 85vw;
+.headerImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('./picture/header.jpg');
+	width: 85%;
 	height: 500px;
 	margin: 0 auto;
-	object-fit: cover;
+	background-size: cover;
+	background-position: 0 55%;
+}
+
+.headerImg .headerText {
+	font-size: 60px;
+	color: #fd5948;
 }
