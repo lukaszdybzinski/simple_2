@@ -121,3 +121,26 @@ body {
 	font-size: 60px;
 	color: #fd5948;
 }
+
+/* MAIN */
+main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	
+	
+}
+.about h2{
+	font-size: 30px;
+	width: 700px;
+	
+	
+}
+
+.about p{
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	line-height: 35px;
+}
