@@ -123,24 +123,53 @@ body {
 }
 
 /* MAIN */
-main{
+.about {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
-	
-	
-}
-.about h2{
-	font-size: 30px;
+	margin: 40px auto;
+	padding: 40px 0;
 	width: 700px;
-	
-	
+}
+.about h2 {
+	font-size: 30px;
+	padding-bottom: 30px;
 }
 
-.about p{
+.about p {
 	font-size: 20px;
 	font-family: 'Times New Roman';
 	line-height: 35px;
+}
+
+/* aboutYellow */
+
+.aboutImg {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	position: relative;
+	height: 800px;
+}
+
+.aboutImg img {
+	height: 600px;
+}
+
+.womenBlur {
+	
+}
+
+.aboutImg .womenBlur .squareYellow {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background-color: #fbffa7;
+	z-index: -10;
+}
+
+.squareYellow img {
+	height: 400px;
+	width: 500px;
 }
