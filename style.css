@@ -7,7 +7,6 @@
 
 body {
 	font-size: 62.5%;
-	margin: 0 30px;
 	font-family: 'Times New Roman', Arial, sans-serif;
 }
 
@@ -27,6 +26,7 @@ body {
 
 .logo {
 	display: flex;
+	margin-left: 20px;
 }
 
 .verLogo,
@@ -147,29 +147,31 @@ body {
 
 .aboutImg {
 	display: flex;
-	justify-content: center;
-	/* align-items: center; */
+	justify-content: space-around;
+	align-items: center;
 	position: relative;
 	height: 800px;
 }
 
-.aboutImg img {
-	height: 600px;
+.console {
+	/* height: 610px;
+	width: 605px; */
+	width: 604px;
+	z-index: 2;
 }
 
 .womenBlur {
-	
+	width: 460px;
+	/* height: 365px;
+	width: 490px; */
+	z-index: 2;
 }
 
-.aboutImg .womenBlur .squareYellow {
+.yellowSquare{
 	position: absolute;
+	right: 0;
+	margin-right: 0;
 	height: 100%;
-	width: 50%;
-	background-color: #fbffa7;
-	z-index: -10;
-}
-
-.squareYellow img {
-	height: 400px;
-	width: 500px;
+	width: 55vw;
+	background-color: #FBFFA7;
 }
