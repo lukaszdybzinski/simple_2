@@ -196,17 +196,19 @@ figcaption {
 	z-index: -1;
 }
 
-.blueImg{
+.blueImg {
 	display: flex;
+	height: 1000px;
 	justify-content: space-around;
 	align-items: center;
-
 }
 
 .columnImg {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	height: 100%;
+	padding: 40px 0;
 }
 
 .columnImg img {
@@ -214,9 +216,18 @@ figcaption {
 	height: 360px;
 }
 
-.asideImg img{
+.asideImg img {
 	width: 600px;
 	height: 650px;
 }
 
+/* chart */
 
+.chart{
+	display: flex;
+	justify-content: center;
+}
+.chart img {
+	width: 80vw;
+	
+}
