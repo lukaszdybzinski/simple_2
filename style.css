@@ -192,7 +192,7 @@ figcaption {
 	position: absolute;
 	height: 1000px;
 	width: 55vw;
-	background-color: #b6ffc0;
+	background-color: #B1C5FF;
 	z-index: -1;
 }
 
@@ -273,4 +273,20 @@ figcaption {
 }
 
 /* green */
+
+.green{
+	position: relative;
+	display: flex;
+	height: 600px;
+	width: 1220px;
+}
+
+.greenSquare{
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	background-color: #B6FFC0;
+}
+
+
 
