@@ -223,11 +223,51 @@ figcaption {
 
 /* chart */
 
-.chart{
+.chart {
 	display: flex;
 	justify-content: center;
 }
 .chart img {
 	width: 80vw;
+}
+
+.secondP {
+	margin: 20px 0;
+}
+
+/* violet */
+.violet {
+	position: relative;
+	height: 800px;
+	width: 100vw;
+}
+
+.violetSquare {
+	position: absolute;
+	top: 0;
+	left: 17%;
+	height: 100%;
+	width: 930px;
+	background-color: #D5B3FF;
+	z-index: -1;
+}
+
+.violetImg{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.violet .violetImg img:first-child  {
+	width: 33.33vw;
+	height: 25vw;
+	margin: 130px;
+}
+
+.violetImg img:last-child {
+	width: 40vw;
+	height: 40vw;
+	object-fit: cover;
+	
 	
 }
