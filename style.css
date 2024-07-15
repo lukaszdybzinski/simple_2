@@ -192,7 +192,7 @@ figcaption {
 	position: absolute;
 	height: 1000px;
 	width: 55vw;
-	background-color: #B1C5FF;
+	background-color: #b1c5ff;
 	z-index: -1;
 }
 
@@ -248,17 +248,17 @@ figcaption {
 	left: 17%;
 	height: 100%;
 	width: 930px;
-	background-color: #D5B3FF;
+	background-color: #d5b3ff;
 	z-index: -1;
 }
 
-.violetImg{
+.violetImg {
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.violet .violetImg img:first-child  {
+.violet .violetImg img:first-child {
 	width: 33.33vw;
 	height: 25vw;
 	margin: 130px;
@@ -268,25 +268,30 @@ figcaption {
 	width: 40vw;
 	height: 40vw;
 	object-fit: cover;
-	
-	
 }
 
 /* green */
 
-.green{
+.green {
+	
 	position: relative;
 	display: flex;
 	height: 600px;
 	width: 1220px;
 }
 
-.greenSquare{
+.greenSquare {
+	position: absolute;
+	right: 0;
 	width: 50%;
 	height: 100%;
-	position: absolute;
-	background-color: #B6FFC0;
+	background-color: #b6ffc0;
+	z-index: -1;
 }
 
-
-
+.greenImg img {
+	
+	width: 40vw;
+	height: 40vw;
+	object-fit: cover;
+}
