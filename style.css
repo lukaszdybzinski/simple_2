@@ -274,17 +274,18 @@ figcaption {
 
 .green {
 	
-	position: relative;
+	
 	display: flex;
+	margin: 0 auto;
 	height: 600px;
 	width: 1220px;
 }
 
 .greenSquare {
-	position: absolute;
-	right: 0;
-	width: 50%;
+	
+	
 	height: 100%;
+	width: 50%;
 	background-color: #b6ffc0;
 	z-index: -1;
 }
@@ -294,4 +295,5 @@ figcaption {
 	width: 40vw;
 	height: 40vw;
 	object-fit: cover;
+	/* display: none; */
 }
