@@ -273,8 +273,6 @@ figcaption {
 /* green */
 
 .green {
-	
-	
 	display: flex;
 	margin: 0 auto;
 	height: 600px;
@@ -282,8 +280,6 @@ figcaption {
 }
 
 .greenSquare {
-	
-	
 	height: 100%;
 	width: 50%;
 	background-color: #b6ffc0;
@@ -291,9 +287,20 @@ figcaption {
 }
 
 .greenImg img {
-	
 	width: 40vw;
-	height: 40vw;
+	height: 100%;
 	object-fit: cover;
-	/* display: none; */
+}
+
+.greenText {
+	display: flex;
+	
+	width: 400px;
+	height: 50px;
+}
+
+.greenText p {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
 }
