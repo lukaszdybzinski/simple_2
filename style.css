@@ -294,15 +294,21 @@ figcaption {
 
 .greenText {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	
+	margin: 0 auto;
 	width: 65%;
 	height: 40vw;
 }
 
-.greenText h2 {
+.greenText h2, a {
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 35px;
+}
+
+.greenText a{
+	margin-top: 40px;
+	text-decoration: none;
 }
