@@ -348,5 +348,8 @@ footer {
 	line-height: 26px;
 }
 
-
+/* do poprawy nie dziala */
+.newslatter .col3:nth-child(2) {
+	max-width: 450px;
+}
 
