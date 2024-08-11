@@ -344,12 +344,14 @@ footer {
 .infoSocial{
 	display: flex;
 	justify-content: space-between;
+	margin-top: 60px;
 	font-size: 19px;
 	line-height: 26px;
 }
 
 .socialIcons{
 	font-size: 40px;
+	margin-top: 10px;
 }
 
 .listHeader{
@@ -359,6 +361,15 @@ footer {
 
 .newslatter .col3:nth-child(1) {
 	max-width: 450px;
+	
+}
+
+.newsletterForm input{
+	border: none;
+	background-color: rgb(241, 241, 241);
+	width: 60px;
+	height: 36px;
+	padding: 0 15px;
 }
 
 
