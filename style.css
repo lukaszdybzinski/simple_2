@@ -394,4 +394,9 @@ footer {
 	font-weight: 700;
 }
 
+.infoLinks{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
 
