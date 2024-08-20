@@ -397,7 +397,8 @@ footer {
 .infoLinks{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	font-size: 18px;
+	gap: 3em;
+	font-size: 1.8em;
 }
 
 
