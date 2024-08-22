@@ -140,6 +140,10 @@ body {
 }
 
 /* MAIN */
+main .borderBottom{
+	margin: 120px 0;
+	border-bottom: 1px solid rgb(240, 240, 240);
+}
 .about {
 	display: flex;
 	flex-direction: column;
@@ -331,6 +335,7 @@ a {
 	text-decoration: none;
 }
 
+
 /* footer 
 footer {
 	margin-top: 160px;
@@ -395,7 +400,7 @@ footer {
 
 /* grid 21 */
 .content h2 {
-	margin-top: 90px;
+	margin: 90px 0;
 	font-size: 64px;
 	font-weight: 700;
 }
@@ -404,7 +409,7 @@ footer {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 3em;
-	font-size: 1.8rem;
+	font-size: 1.9rem;
 }
 
 
