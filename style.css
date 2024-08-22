@@ -412,4 +412,8 @@ footer {
 	font-size: 1.9rem;
 }
 
+.infoLinks ul li {
+	cursor: pointer;
+}
+
 
