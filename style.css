@@ -440,3 +440,14 @@ footer {
 	font-size: 15px;
 	cursor: pointer;
 }
+
+.infoLinks .col6 li form select{
+	border: none;
+	background-color: rgb(241, 241, 241);
+	height: 3.6rem;
+	width: 30%;
+}
+
+.infoLinks .col6 li form .country{
+	width: 220px;
+}
