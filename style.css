@@ -416,4 +416,6 @@ footer {
 	cursor: pointer;
 }
 
-
+.infoLinks .col1 .socialIcons{
+	font-size: 4rem;
+}
