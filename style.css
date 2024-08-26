@@ -419,3 +419,24 @@ footer {
 .infoLinks .col1 .socialIcons{
 	font-size: 4rem;
 }
+
+.newsletterForm input{
+	border: none;
+	background-color: rgb(241, 241, 241);
+	width: 60%;
+	height: 36px;
+	padding: 0 15px;
+	font-size: 18px;
+	margin-right: -4px;
+}
+
+.newsletterForm button{
+	border: none;
+	background-color: #0000ff;
+	width: 30%;
+	height: 36px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	cursor: pointer;
+}
