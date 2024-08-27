@@ -451,3 +451,31 @@ footer {
 .infoLinks .col6 li form .country{
 	width: 220px;
 }
+
+.infoContact{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 60px;
+	margin-bottom: 120px;
+	font-size: 1.4rem;
+
+}
+
+.leftContact{
+	width: 50%;
+}
+
+.infoContact .leftContact ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	
+}
+
+.infoContact .rightContact{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
