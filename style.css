@@ -336,68 +336,6 @@ a {
 }
 
 
-/* footer 
-footer {
-	margin-top: 160px;
-	border-top: 1px solid rgb(105, 104, 104, 0.4);
-}
-
-.content {
-	width: 1200px;
-}
-
-.content h2 {
-	margin-top: 90px;
-	font-size: 64px;
-	font-weight: 700;
-}
-
-.infoSocial{
-	display: flex;
-	justify-content: space-between;
-	margin-top: 60px;
-	font-size: 19px;
-	line-height: 26px;
-}
-
-.socialIcons{
-	font-size: 40px;
-	margin-top: 10px;
-}
-
-.listHeader{
-	font-weight: bold;
-}
-
-
-.newslatter .col3:nth-child(1) {
-	max-width: 450px;
-}
-
-
-.newsletterForm input{
-	border: none;
-	background-color: rgb(241, 241, 241);
-	width: 60%;
-	height: 36px;
-	padding: 0 15px;
-	font-size: 18px;
-	margin-right: -4px;
-}
-
-.newsletterForm button{
-	border: none;
-	background-color: #0000ff;
-	width: 30%;
-	height: 36px;
-	color: #fff;
-	font-weight: bold;
-	font-size: 15px;
-	cursor: pointer;
-}
-*/
-
-
 /* grid 21 */
 .content h2 {
 	margin: 90px 0;
