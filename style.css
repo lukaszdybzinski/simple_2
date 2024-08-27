@@ -352,6 +352,7 @@ a {
 
 .infoLinks ul li {
 	cursor: pointer;
+	padding: 2px 0;
 }
 
 .infoLinks .col1 .socialIcons{
