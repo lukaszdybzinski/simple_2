@@ -421,5 +421,8 @@ a {
 
 /* mediaqueries */
 
-@media ();
+@media (min-width: 500px)
+{
+	
+}
 
