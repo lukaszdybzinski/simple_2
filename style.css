@@ -421,8 +421,15 @@ a {
 
 /* mediaqueries */
 
-@media (min-width: 700px)
-{
+@media (min-width: 576px){
 	
 }
+@media (min-width: 768px){
+	
+}
+@media (min-width: 576px){
+	
+}
+
+
 
